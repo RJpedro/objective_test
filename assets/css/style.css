@@ -1,0 +1,158 @@
+/* top  _area */
+.destaq-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.main-area {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 100%;
+    margin: 3% 13%;
+}
+
+.left-part {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+}
+
+.main-notice {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.main-notice a {
+    color: #171717;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.main-notice .card-title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #171717;
+}
+
+.main-notice img {
+    width: 504px;
+    max-width: 504px;
+    max-height: 229px;
+}
+
+.bar {
+    margin: 16px 0;
+    width: 100%;
+    height: 1px;
+    background: #EDEDED;
+}
+
+.content-see-more {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.content-see-more:nth-child(1) {
+    flex-direction: column;
+    padding: 0 16px;
+    position: relative;
+    height: 100%;
+    width: 500px;
+}
+
+.divisor {
+    height: 100px;
+    width: 1px;
+    background: #EDEDED;
+}
+
+.content-see-more a {
+    display: flex;
+    flex-direction: column;
+    color: #171717;
+}
+
+.card-notice {
+    border: none;
+    min-width: 250px;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+}
+
+.more-notices {
+    margin: 20px 0;
+}
+
+.type-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-type {
+    width: 80px;
+    max-width: 80px;
+    padding: 4px 8px;
+    background: #BA2627;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 2px;
+    font-size: 12px; 
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-content {
+    padding: 4px 0;
+    font-size: 16px;
+    text-overflow: ellipsis;
+}
+
+.card-by {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 10.67px;
+}
+
+.card-by span {
+    color: #BA2627;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    height: 36px;
+    background: #171717;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}

@@ -1,0 +1,165 @@
+/* top  _area */
+.top-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 80px 0;
+}
+
+/* card_login */
+.card-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    width: 80%;
+    height: 72%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.main-area {
+    display: flex;
+    justify-content: end;
+    height: 100%;
+    margin: 0;
+}
+
+.background-img {
+    width: 504px;
+    height: 320px;
+}
+
+.form-create {
+    width: 504px;
+    height: 100%;
+}
+
+.title-form, .title-form .account {
+    font-weight: 700;
+    font-style: normal;
+    line-height: 24px;  
+}
+
+.account {
+    color: #BA2627;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 16px;
+    gap: 16px;
+}
+
+.btn-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 8px;
+    width: 70%;
+    height: 36px;
+    background: #171717;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+.btn-login:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+input {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 16px;
+    gap: 8px;
+    width: 70%;
+    height: 35px;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+}
+
+input::placeholder {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.have-account {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #171717;
+}
+
+.have-account a {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #BA2627;   
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 0) and (max-width: 767px) {
+    .card-login {
+        width: 100%;
+    }
+
+    .main-area {
+        flex-direction: column;
+    }
+    
+    .form-create {
+        width: 380px;
+    }
+
+    .main-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0px;
+        gap: 16px;
+    }
+
+    .background-img {
+        width: 380px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .card-login {
+        width: 100%;
+        align-items: center;
+    }
+
+    .main-area {
+        flex-direction: column;
+    }
+    
+    .form-create {
+        width: 504px;
+    }
+
+    .main-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0px;
+        gap: 16px;
+    }
+
+    .background-img {
+        width: 504px;
+    }
+}

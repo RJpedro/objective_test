@@ -1,0 +1,175 @@
+/* top  _area */
+.top-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 80px 0;
+}
+
+.animation-message {
+    position: absolute;
+    height: 500px;
+    z-index: 100;
+    top: -200px;
+    left: 50%;
+    display: none;
+    animation: topToBottom 6s both;
+    transform: translate(-50%, 0);
+}
+
+.main-popup .secondary-popup {
+  width: 300px;
+  height: 40px;
+  position: relative;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* card_login */
+.card-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    width: 80%;
+    height: 72%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.main-area {
+    display: flex;
+    justify-content: end;
+    height: 100%;
+    align-items: end;
+    margin: 0;
+}
+
+.background-img {
+    width: 504px;
+    height: 320px;
+}
+
+.form-create {
+    width: 504px;
+    height: 100%;
+}
+
+.title-form, .title-form .account {
+    font-weight: 700;
+    font-style: normal;
+    line-height: 24px;  
+}
+
+.account {
+    color: #BA2627;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 16px;
+    gap: 16px;
+}
+
+input {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 16px;
+    gap: 8px;
+    width: 70%;
+    height: 35px;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+}
+
+input::placeholder {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.btn {
+    width: 70%;
+}
+
+.have-account {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #171717;
+}
+
+.have-account a {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #BA2627;
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 0) and (max-width: 767px) {
+    .card-login {
+        width: 100%;
+    }
+
+    .main-area {
+        flex-direction: column;
+    }
+    
+    .form-create {
+        width: 380px;
+    }
+
+    .main-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0px;
+        gap: 16px;
+    }
+
+    .background-img {
+        width: 380px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .card-login {
+        width: 100%;
+    }
+
+    .main-area {
+        flex-direction: column;
+    }
+    
+    .form-create {
+        width: 504px;
+    }
+
+    .main-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0px;
+        gap: 16px;
+    }
+
+    .background-img {
+        width: 504px;
+    }
+
+    .card-login {
+        align-items: center;
+    }
+}

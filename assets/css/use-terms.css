@@ -1,0 +1,80 @@
+/* top  _area */
+.destaq-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.main-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.title { 
+    min-width: 260px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0;
+    gap: 6px;
+}
+
+.title h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.red {
+    color: #BA2627;
+}
+
+.texts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    padding-inline-start: 20px;
+}
+
+.head-terms h6 {
+    font-size: 15px;
+}
+
+.lower-alpha {
+    list-style-type: none;
+    /* list-style-type: lower-alpha; */
+}
+
+.main-terms span, .main-terms .lower-alpha, .footer-terms h6 {
+    font-size: 15px;
+}
+
+.main-terms .main-ol {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.main-ol li::before {
+    color: #BA2627;
+}
+
+.footer-terms {
+    margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 0) and (max-width: 767px) {
+    .main-area {
+        padding: 0 13%;
+    }
+
+    .texts {
+        padding: 0 0%;
+    }    
+}
